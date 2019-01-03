@@ -1,4 +1,4 @@
-CCS PCM C Compiler, Version 5.080, 13314               03-ene.-19 13:05
+CCS PCM C Compiler, Version 5.080, 13314               03-ene.-19 13:16
 
                Filename:   C:\Users\jaime\OneDrive\Escritorio\Proteus\Libro\MenuLCD\Codigo\NetBeans\NetBeans.X\build\default\production\MenuLCD.lst
 
@@ -23,6 +23,18 @@ CCS PCM C Compiler, Version 5.080, 13314               03-ene.-19 13:05
 ....................     
 ....................    Autor: Jaime Martínez. 
 ....................    Fecha: 03/01/2019 
+....................   
+....................   
+....................    HARDWARE: 
+....................     
+....................  LED D1 = C2 
+....................  LED D2 = C1 
+....................  LED D3 = C0 
+....................   
+....................  DISPLAY = Puerto B 
+....................   
+....................  Pulsador Cambio de Menú = A0 
+....................  Pulsador Encender/Apagar Led = A1 
 .................... */ 
 ....................  
 .................... #include <16F876.h> 

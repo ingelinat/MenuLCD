@@ -7,6 +7,18 @@
    
    Autor: Jaime Martínez.
    Fecha: 03/01/2019
+ 
+ 
+   HARDWARE:
+   
+ LED D1 = C2
+ LED D2 = C1
+ LED D3 = C0
+ 
+ DISPLAY = Puerto B
+ 
+ Pulsador Cambio de Menú = A0
+ Pulsador Encender/Apagar Led = A1
 */
 
 #include <16F876.h>

@@ -65,11 +65,11 @@ Project Directory:
     C:\Users\jaime\OneDrive\Escritorio\Proteus\Libro\MenuLCD\Codigo\NetBeans\NetBeans.X\
 
 Project Files:
-    MenuLCD.c                                               [03-ene.-19 13:04  CRC=4EF2E8E1]
+    MenuLCD.c                                               [03-ene.-19 13:16  CRC=D208F989]
     16F876.h                                                [20-jul.-18 14:23  CRC=96584332]
     lcd.c                                                   [22-feb.-16 10:05  CRC=D1A6378A]
 
-Source signature=88979B27
+Source signature=0BADABCF
 Program memory checksum=0000
 Program memory CRC=0000
 Hex file CRC=4753

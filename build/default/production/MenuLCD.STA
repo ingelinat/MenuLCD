@@ -13,11 +13,11 @@ Stack size: 8
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
-   87    34  29  MenuLCD.c
+   99    34  29  MenuLCD.c
   601     0   0  16F876.h
   456    84  71  lcd.c
 ----- -----
- 1144   118 Total
+ 1156   118 Total
 
 Page ROM  %  RAM    Vol Diff  Functions:
 ---- --- --- ---    --- ----  ----------
@@ -40,14 +40,14 @@ Page ROM  %  RAM    Vol Diff  Functions:
 Program metrics:
     Functions               9
     Statements              118
-    Comments                239
+    Comments                275
     Volume (V)              5410
     Difficulty (D)          43.4
     Effort to implement (E) 234791
     Time to implement (T)   3 hours, 37 minutes
     Est Delivered Bugs (B)  1
     Cyclomatic Complexity   16
-    Maintainability (MI)    145
+    Maintainability (MI)    134
 
  Segment     Used  Free
 -----------  ----  ----
