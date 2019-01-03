@@ -1,0 +1,14 @@
+[PROJECT]
+Target=build\default\production\MenuLCD.hex
+Processor_Text=PIC16F876
+CCSVersion=5.080
+Compiler=PCM
+[Target Data]
+FileList=MenuLCD.c
+[build\default\production\MenuLCD.c]
+Type=4
+[mru-list]
+1=build\default\production\MenuLCD.c
+[Units]
+Count=1
+1=MenuLCD (main)

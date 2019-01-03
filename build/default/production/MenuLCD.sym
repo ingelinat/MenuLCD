@@ -1,0 +1,101 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+006     lcdlat
+006     lcd
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @TRIS_C
+021-022 @sprintf_string
+023     MAIN.m
+024     nav.m
+024     lcd_init.i
+024     MAIN.@SCRATCH1
+025-028 lcd_init.LCD_INIT_STRING
+025     nav.@SCRATCH1
+025     @PSTRINGC7_636.@SCRATCH1
+026     @PSTRINGC7_636.@SCRATCH2
+027     @PSTRINGC7_636.@SCRATCH3
+028     lcd_putc.c
+028     @PSTRINGC7_636.@SCRATCH4
+029     lcd_gotoxy.x
+029     @delay_ms1.P1
+029     lcd_init.@SCRATCH1
+02A     lcd_gotoxy.y
+02B     lcd_gotoxy.address
+02C     lcd_gotoxy.@SCRATCH1
+02D     lcd_send_byte.address
+02E     lcd_send_byte.n
+02F     lcd_read_byte.low
+02F     lcd_send_byte.@SCRATCH1
+030     lcd_read_byte.high
+030     lcd_send_nibble.n
+031     lcd_read_byte.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+086     lcdtris
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const655.call
+000008  @const660.call
+00000C  @const661.call
+000010  @delay_ms1
+000025  lcd_send_nibble
+000031  lcd_read_nibble
+000037  lcd_send_byte
+00003D  lcd_read_byte
+000077  lcd_init
+0000B5  lcd_gotoxy
+0000C7  lcd_putc
+0000F3  @PSTRINGC7_636
+000149  nav
+0001B2  @cinit1
+0001B2  MAIN
+0001BE  @cinit2
+
+Project Directory:
+    C:\Users\jaime\OneDrive\Escritorio\Proteus\Libro\MenuLCD\Codigo\NetBeans\NetBeans.X\
+
+Project Files:
+    MenuLCD.c                                               [03-ene.-19 13:04  CRC=4EF2E8E1]
+    16F876.h                                                [20-jul.-18 14:23  CRC=96584332]
+    lcd.c                                                   [22-feb.-16 10:05  CRC=D1A6378A]
+
+Source signature=88979B27
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=4753
+
+Units:
+    MenuLCD (main)
+
+Compiler Settings:
+    Processor:      PIC16F876
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __16F876 1
+
+Output Files:
+    XREF file:   build\default\production\MenuLCD.xsym
+    Errors:      build\default\production\MenuLCD.err
+    Ext Symbols: build\default\production\MenuLCD.esym
+    INHX8:       build\default\production\MenuLCD.hex
+    Symbols:     build\default\production\MenuLCD.sym
+    List:        build\default\production\MenuLCD.lst
+    Debug/COFF:  build\default\production\MenuLCD.cof
+    Project:     MenuLCD.ccspjt
+    Call Tree:   build\default\production\MenuLCD.tre
+    Statistics:  build\default\production\MenuLCD.STA

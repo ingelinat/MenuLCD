@@ -1,0 +1,5 @@
+Compiling C:\Users\jaime\OneDrive\Escritorio\Proteus\Libro\MenuLCD\Codigo\NetBeans\NetBeans.X\MenuLCD on 03-ene.-19 at 13:05
+C:\Users\jaime\OneDrive\Escritorio\Proteus\Libro\MenuLCD\Codigo\NetBeans\NetBeans.X\MenuLCD.c:67:1:  Warning#203  Condition always TRUE
+      Memory usage:   ROM=6%      RAM=3% - 6%
+      0 Errors,  1 Warnings.
+Build Successful.
